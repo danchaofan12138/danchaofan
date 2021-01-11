@@ -36,3 +36,161 @@
     "script": "abcd.js"
   }]
 }
+{
+  "id": "ZhiYi-N.app.sub",
+  "name": "ZhiYi-N 签到应用订阅",
+  "author": "@ZhiYi-N",
+  "icon": "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/ZhiYi-N.png",
+  "repo": "https://github.com/ZhiYi-N/script",
+  "apps": [{
+    "id": "jrtt",
+    "name": "今日头条极速版",
+    "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey", "signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2"],
+    "author": "@ZhiYi-N",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+       {
+        "id": "jrttsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "jrttcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "https://github.com/ZhiYi-N/script/blob/master/jrtt.js",
+    "icons": ["https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/jrtt_1.png", "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/jrtt.jpg"],
+    "script": "https://raw.githubusercontent.com/ZhiYi-N/script/master/jrtt.js"
+  },
+  {
+    "id": "kkd",
+    "name": "快看点",
+    "keys": ["kkdheader", "kkdcookie", "kkdheader2", "kkdcookie2"],
+    "author": "@ZhiYi-N",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+      {
+        "id": "kkdsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "kkdcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "https://github.com/ZhiYi-N/script/blob/master/kkd.js",
+    "icons": ["https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/kkd_1.png", "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/kkd.jpg"],
+    "script": "https://raw.githubusercontent.com/ZhiYi-N/script/master/kkd.js"
+  },
+  {
+    "id": "dyjsb",
+    "name": "抖音极速版",
+    "keys": ["signheader", "signcookie", "stepheader", "stepkey", "readheader", "readkey", "signheader2", "signcookie2", "stepheader2", "stepkey2", "readheader2", "readkey2"],
+    "author": "@ZhiYi-N",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+      {
+        "id": "dyjsbsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "dyjsbcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "https://github.com/ZhiYi-N/script/blob/master/dyjsb.js",
+    "icons": ["https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/dyjsb_1.png", "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/dyjsb.jpg"],
+    "script": "https://raw.githubusercontent.com/ZhiYi-N/script/master/dyjsb.js"
+    }, 
+    {
+    "id": "xp",
+    "name": "笑谱",
+    "keys": ["videoheader", "videobody", "videoheader2", "videobody2", "videoheader3", "videobody3"],
+    "author": "@ZhiYi-N",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+      {
+        "id": "xpsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "xpcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "https://github.com/ZhiYi-N/script/blob/master/xp.js",
+    "icons": ["https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/xp_1.png", "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/xp.jpg"],
+    "script": "https://raw.githubusercontent.com/ZhiYi-N/script/master/xp.js"
+   },
+   {
+    "id": "hotsoon",
+    "name": "火山小视频极速版",
+    "keys": ["hotsoonsignheader", "hotsoonsignkey", "hotsoonadheader", "hotsoonadkey", "hotsoonreadheader", "hotsoonreadkey", "hotsoonsignheader2", "hotsoonsignkey2", "hotsoonadheader2", "hotsoonadkey2", "hotsoonreadheader2", "hotsoonreadkey2", "hotsoonsignheader3", "hotsoonsignkey3", "hotsoonadheader3", "hotsoonadkey3", "hotsoonreadheader3", "hotsoonreadkey3", "hotsoonsignheader4", "hotsoonsignkey4", "hotsoonadheader4", "hotsoonadkey4", "hotsoonreadheader4", "hotsoonreadkey4", "hotsoonsignheader5", "hotsoonsignkey5", "hotsoonadheader5", "hotsoonadkey5", "hotsoonreadheader5", "hotsoonreadkey5", "hotsoonsignheader6", "hotsoonsignkey6", "hotsoonadheader6", "hotsoonadkey6", "hotsoonreadheader6", "hotsoonreadkey6", "hotsoonsignheader7", "hotsoonsignkey7", "hotsoonadheader7", "hotsoonadkey7", "hotsoonreadheader7", "hotsoonreadkey7", "hotsoonsignheader8", "hotsoonsignkey8", "hotsoonadheader8", "hotsoonadkey8", "hotsoonreadheader8", "hotsoonreadkey8", "hotsoonsignheader9", "hotsoonsignkey9", "hotsoonadheader9", "hotsoonadkey9", "hotsoonreadheader9", "hotsoonreadkey9", "hotsoonsignheader10", "hotsoonsignkey10", "hotsoonadheader10", "hotsoonadkey10", "hotsoonreadheader10", "hotsoonreadkey10"],
+    "author": "@ZhiYi-N",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+       {
+        "id": "hotsoonsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "hotsooncount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "https://github.com/ZhiYi-N/script/blob/master/hotsoon.js",
+    "icons": ["https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/hotsoon_1.png", "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/hotsoon.jpg"],
+    "script": "https://raw.githubusercontent.com/ZhiYi-N/script/master/hotsoon.js"
+  }
+ ]
+}
