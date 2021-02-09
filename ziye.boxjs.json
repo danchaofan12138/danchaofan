@@ -1,0 +1,184 @@
+{
+"id": "ziye.app.sub",
+"name": "ziye 脚本订阅",
+"author": "@ZIYE",
+"icon": "https://raw.githubusercontent.com/ziye12/JavaScript/main/ziye.png",
+"repo": "https://github.com/ziye12",
+"apps": [{
+"id": "qczjspeed",
+"name": "汽车之家极速版",
+"keys": [ "GetUserInfoheader",  "taskbody", "activitybody", "addCoinbody", "addCoin2body", "GetUserInfoheader2", "taskbody2", "activitybody2", "addCoinbody2", "addCoin2body2", "GetUserInfoheader3", "taskbody3", "activitybody3", "addCoinbody3", "addCoin2body3", "GetUserInfoheader4", "taskbody4", "activitybody4", "addCoinbody4", "addCoin2body4",  "GetUserInfoheader5", "taskbody5", "activitybody5", "addCoinbody5", "addCoin2body5","GetUserInfoheader6", "taskbody6", "activitybody6", "addCoinbody6", "addCoin2body6",  "GetUserInfoheader7", "taskbody7", "activitybody7", "addCoinbody7", "addCoin2body7",  "GetUserInfoheader8", "taskbody8", "activitybody8", "addCoinbody8", "addCoin2body8", "GetUserInfoheader9", "taskbody9", "activitybody9", "addCoinbody9", "addCoin2body9", "GetUserInfoheader10", "taskbody10", "activitybody10", "addCoinbody10", "addCoin2body10", "GetUserInfoheader11", "taskbody11", "activitybody11", "addCoinbody11", "addCoin2body11",  "GetUserInfoheader12", "taskbody12", "activitybody12", "addCoinbody12", "addCoin2body12", "GetUserInfoheader13", "taskbody13", "activitybody13", "addCoinbody13", "addCoin2body13", "GetUserInfoheader14", "taskbody14", "activitybody14", "addCoinbody14", "addCoin2body14",  "GetUserInfoheader15", "taskbody15", "activitybody15", "addCoinbody15", "addCoin2body15",  "GetUserInfoheader16", "taskbody16", "activitybody16", "addCoinbody16", "addCoin2body16", "GetUserInfoheader17", "taskbody17", "activitybody17", "addCoinbody17", "addCoin2body17",  "GetUserInfoheader18", "taskbody18", "activitybody18", "addCoinbody18", "addCoin2body18",  "GetUserInfoheader19", "taskbody19", "activitybody19", "addCoinbody19", "addCoin2body19", "GetUserInfoheader20", "taskbody20", "activitybody20", "addCoinbody20", "addCoin2body20"],
+"author": "@ziye",
+"settings": [{
+"id": "qczjSuffix",
+"name": "当前账号",
+"val": "1",
+"type": "number",
+"desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+},
+{
+"id": "qczjCount",
+"name": "账号个数",
+"val": "1",
+"type": "number",
+"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+},
+{
+"id": "qczjCASH",
+"name": "提现标准",
+"val": "0",
+"type": "number",
+"desc": "0不提现，可设置0 0.5 2 5 10 20 "
+},
+{
+"id": "qczjCASHTIME",
+"name": "提现时间",
+"val": "0",
+"type": "number",
+"desc": "默认0点后提现，可设置 0 ~ 23  "
+}
+],
+"repo": "https://github.com/ziye12/QCZJSPEED/blob/main/Task/qczjspeed.js",
+"icons": ["https://raw.githubusercontent.com/Orz-3/task/master/qczj.png", "https://raw.githubusercontent.com/Orz-3/task/master/qczj.png"],
+"script": "https://raw.githubusercontent.com/ziye12/QCZJSPEED/main/Task/qczjspeed.js"
+},
+{
+"id": "xiaole",
+"name": "小乐",
+"keys": ["xiaoleurl", "xiaolehd","xiaoleurl2", "xiaolehd2","xiaoleurl3", "xiaolehd3","xiaoleurl4", "xiaolehd4","xiaoleurl5", "xiaolehd5","xiaoleurl6", "xiaolehd6","xiaoleurl7", "xiaolehd7","xiaoleurl8", "xiaolehd8","xiaoleurl9", "xiaolehd9","xiaoleurl10", "xiaolehd10"],
+"author": "@ziye",
+"settings": [{
+"id": "xlSuffix",
+"name": "当前账号",
+"val": "1",
+"type": "number",
+"desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+},
+{
+"id": "xlCount",
+"name": "账号个数",
+"val": "1",
+"type": "number",
+"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+}
+],
+"repo": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/xiaole.js",
+"icons": ["https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/xiaole.png", "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/xiaole.png"],
+"script": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/xiaole.js"
+},
+{
+"id": "iboxpay",
+"name": "笑谱",
+"keys": [ "iboxpayheader","refreshtoken", "iboxpayheader2","refreshtoken2","iboxpayheader3","refreshtoken3", "iboxpayheader4","refreshtoken4","iboxpayheader5","refreshtoken5", "iboxpayheader6","refreshtoken6", "iboxpayheader7","refreshtoken7",  "iboxpayheader8","refreshtoken8", "iboxpayheader9","refreshtoken9",  "iboxpayheader10","refreshtoken10","iboxpayheader11","refreshtoken11", "iboxpayheader12","refreshtoken12", "iboxpayheader13","refreshtoken13",  "iboxpayheader14","refreshtoken14", "iboxpayheader15","refreshtoken15", "iboxpayheader16","refreshtoken16", "iboxpayheader17","refreshtoken17",  "iboxpayheader18","refreshtoken18", "iboxpayheader19","refreshtoken19", "iboxpayheader20", "refreshtoken20"],
+"author": "@ziye",
+"settings": [{
+"id": "iboxpaySuffix",
+"name": "当前账号",
+"val": "1",
+"type": "number",
+"desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+},
+{
+"id": "iboxpayCount",
+"name": "账号个数",
+"val": "1",
+"type": "number",
+"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+},
+{
+"id": "iboxpayLIVE",
+"name": "任务控制",
+"val": "0",
+"type": "number",
+"desc": "0开启视频，关闭直播，1开启直播，开启视频，2开启直播，关闭视频，3开启直播，开启视频，开启红包雨 "
+},
+{
+"id": "iboxpayCASH",
+"name": "提现标准",
+"val": "0",
+"type": "number",
+"desc": "0不提现，可设置 0 1 15 30 100  "
+},
+{
+"id": "iboxpayphone",
+"name": "手机号",
+"val": "0",
+"type": "number",
+"desc": "请输入完整手机号"
+},
+{
+"id": "iboxpaysms",
+"name": "验证码",
+"val": "0",
+"type": "number",
+"desc": "输入短信验证码，默认为0，不启动获取token功能"
+}
+],
+"repo": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/iboxpay.js",
+"icons": ["https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/iboxpay.png", "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/iboxpay.png"],
+"script": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/iboxpay.js"
+},
+{
+"id": "flw",
+"name": "返利网",
+"keys": [ "flwurl","flwheader","flwspbody","flwqwbody","flwurl2","flwheader2","flwspbody2","flwqwbody2","flwurl3","flwheader3","flwspbody3","flwqwbody3","flwurl4","flwheader4","flwspbody4","flwqwbody4","flwurl5","flwheader5","flwspbody5","flwqwbody5","flwurl6","flwheader6","flwspbody6","flwqwbody6","flwurl7","flwheader7","flwspbody7","flwqwbody7","flwurl8","flwheader8","flwspbody8","flwqwbody8","flwurl9","flwheader9","flwspbody9","flwqwbody9","flwurl10","flwheader10","flwspbody10","flwqwbody10","flwurl11","flwheader11","flwspbody11","flwqwbody11","flwurl12","flwheader12","flwspbody12","flwqwbody12","flwurl13","flwheader13","flwspbody13","flwqwbody13","flwurl14","flwheader14","flwspbody14","flwqwbody14","flwurl15","flwheader15","flwspbody15","flwqwbody15","flwurl16","flwheader16","flwspbody16","flwqwbody16","flwurl17","flwheader17","flwspbody17","flwqwbody17","flwurl18","flwheader18","flwspbody18","flwqwbody18","flwurl19","flwheader19","flwspbody19","flwqwbody19","flwurl20","flwheader20","flwspbody20","flwqwbody20"],
+"author": "@ziye",
+"settings": [{
+"id": "flwSuffix",
+"name": "当前账号",
+"val": "1",
+"type": "number",
+"desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+},
+{
+"id": "flwCount",
+"name": "账号个数",
+"val": "1",
+"type": "number",
+"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+},
+{
+"id": "flwCASH",
+"name": "天天领现金提现标准",
+"val": "0",
+"type": "number",
+"desc": "默认0，设置0.3及以上时启动天天领现金模块，且大于等于此值时自动提现"
+},
+{
+"id": "flwDHCASH",
+"name": "兑换标准",
+"val": "0",
+"type": "number",
+"desc": "默认0，可设置设置 0 5 50 100"
+}
+],
+"repo": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.js",
+"icons": ["https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.png", "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.png"],
+"script": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.js"
+},
+{
+"id": "githubAC",
+"name": "githubAC",
+"keys": ["githubACname","githubACurl","githubACheader","githubACbody","HHA","HHB","MMA","MMB","MMC","MMD","MME","MMF","MMG","MMH","MMI","MMJ","MMK","MML","githubACname2","githubACurl2","githubACheader2","githubACbody2","HHA2","HHB2","MMA2","MMB2","MMC2","MMD2","MME2","MMF2","MMG2","MMH2","MMI2","MMJ2","MMK2","MML2","githubACname3","githubACurl3","githubACheader3","githubACbody3","HHA3","HHB3","MMA3","MMB3","MMC3","MMD3","MME3","MMF3","MMG3","MMH3","MMI3","MMJ3","MMK3","MML3","githubACname4","githubACurl4","githubACheader4","githubACbody4","HHA4","HHB4","MMA4","MMB4","MMC4","MMD4","MME4","MMF4","MMG4","MMH4","MMI4","MMJ4","MMK4","MML4","githubACname5","githubACurl5","githubACheader5","githubACbody5","HHA5","HHB5","MMA5","MMB5","MMC5","MMD5","MME5","MMF5","MMG5","MMH5","MMI5","MMJ5","MMK5","MML5","githubACname6","githubACurl6","githubACheader6","githubACbody6","HHA6","HHB6","MMA6","MMB6","MMC6","MMD6","MME6","MMF6","MMG6","MMH6","MMI6","MMJ6","MMK6","MML6","githubACname7","githubACurl7","githubACheader7","githubACbody7","HHA7","HHB7","MMA7","MMB7","MMC7","MMD7","MME7","MMF7","MMG7","MMH7","MMI7","MMJ7","MMK7","MML7","githubACname8","githubACurl8","githubACheader8","githubACbody8","HHA8","HHB8","MMA8","MMB8","MMC8","MMD8","MME8","MMF8","MMG8","MMH8","MMI8","MMJ8","MMK8","MML8","githubACname9","githubACurl9","githubACheader9","githubACbody9","HHA9","HHB9","MMA9","MMB9","MMC9","MMD9","MME9","MMF9","MMG9","MMH9","MMI9","MMJ9","MMK9","MML9","githubACname10","githubACurl10","githubACheader10","githubACbody10","HHA10","HHB10","MMA10","MMB10","MMC10","MMD10","MME10","MMF10","MMG10","MMH10","MMI10","MMJ10","MMK10","MML10","githubACname11","githubACurl11","githubACheader11","githubACbody11","HHA11","HHB11","MMA11","MMB11","MMC11","MMD11","MME11","MMF11","MMG11","MMH11","MMI11","MMJ11","MMK11","MML11","githubACname12","githubACurl12","githubACheader12","githubACbody12","HHA12","HHB12","MMA12","MMB12","MMC12","MMD12","MME12","MMF12","MMG12","MMH12","MMI12","MMJ12","MMK12","MML12","githubACname13","githubACurl13","githubACheader13","githubACbody13","HHA13","HHB13","MMA13","MMB13","MMC13","MMD13","MME13","MMF13","MMG13","MMH13","MMI13","MMJ13","MMK13","MML13","githubACname14","githubACurl14","githubACheader14","githubACbody14","HHA14","HHB14","MMA14","MMB14","MMC14","MMD14","MME14","MMF14","MMG14","MMH14","MMI14","MMJ14","MMK14","MML14","githubACname15","githubACurl15","githubACheader15","githubACbody15","HHA15","HHB15","MMA15","MMB15","MMC15","MMD15","MME15","MMF15","MMG15","MMH15","MMI15","MMJ15","MMK15","MML15","githubACname16","githubACurl16","githubACheader16","githubACbody16","HHA16","HHB16","MMA16","MMB16","MMC16","MMD16","MME16","MMF16","MMG16","MMH16","MMI16","MMJ16","MMK16","MML16","githubACname17","githubACurl17","githubACheader17","githubACbody17","HHA17","HHB17","MMA17","MMB17","MMC17","MMD17","MME17","MMF17","MMG17","MMH17","MMI17","MMJ17","MMK17","MML17","githubACname18","githubACurl18","githubACheader18","githubACbody18","HHA18","HHB18","MMA18","MMB18","MMC18","MMD18","MME18","MMF18","MMG18","MMH18","MMI18","MMJ18","MMK18","MML18","githubACname19","githubACurl19","githubACheader19","githubACbody19","HHA19","HHB19","MMA19","MMB19","MMC19","MMD19","MME19","MMF19","MMG19","MMH19","MMI19","MMJ19","MMK19","MML19","githubACname20","githubACurl20","githubACheader20","githubACbody20","HHA20","HHB20","MMA20","MMB20","MMC20","MMD20","MME20","MMF20","MMG20","MMH20","MMI20","MMJ20","MMK20","MML20"],
+"author": "@ziye",
+"settings": [{
+"id": "githubACSuffix",
+"name": "当前js",
+"val": "1",
+"type": "number",
+"desc": "当前抓取js  ck的账号序号，如：1、2、3、"
+},
+{
+"id": "githubACCount",
+"name": "js个数",
+"val": "1",
+"type": "number",
+"desc": "指定任务最多跑几个js，根据抓取的js数据个数来设值"
+}
+],
+"repo": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/githubAC.js",
+"icons": ["https://github.githubassets.com/images/modules/site/home/astro-mona.jpg", "https://github.githubassets.com/images/modules/site/home/astro-mona.jpg"],
+"script": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/githubAC.js"
+}
+]
+}
