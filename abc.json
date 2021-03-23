@@ -48,14 +48,18 @@
 				"val": "",
 				"type": "number",
 				"desc": "0为关闭通知，1为所有通知，默认为关闭通知"
-			},{
-				"id": "chSuffix",
+			}
+			,
+			{
+				"id": "chonghauappSuffix",
 				"name": "当前抓取ck账号",
 				"val": "1",
 				"type": "number",
 				"desc": "当前抓取ck记录的账号序号，如：1、2、3、"
-			},{
-				"id": "chCount",
+			}
+			,
+			{
+				"id": "chonghauappCount",
 				"name": "脚本执行账号个数",
 				"val": "1",
 				"type": "number",
