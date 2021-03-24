@@ -1,0 +1,6 @@
+hostname=veishop.iboxpay.com
+
+############## 圈x
+
+#笑谱获取更新TOKEN
+https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/* url script-response-body https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/iboxpay.js
