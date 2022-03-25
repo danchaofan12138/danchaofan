@@ -6,7 +6,6 @@
   "repo": "https://github.com/leafxcy/JavaScript",
   "apps": [
     {
-{
       "id": "ksjsb",
   "name": "快手极速版",
   "keys": ["ksjsbckl", "ksjsbck2", "ksjsbck3", "ksjsbck4"],
@@ -30,7 +29,7 @@
     "type": "number",
     "desc": "0关闭，1打开，默认关闭"
   }],
-                        "repo": "https://github.com/leafxcy/JavaScript",
+                        "repo": "https://github.com/leafxcy/JavaScript/main/ksjsb.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://github.com/"
+                                "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js"
   }
