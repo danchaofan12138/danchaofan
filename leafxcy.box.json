@@ -53,7 +53,7 @@
   "keys": ["TxStockCookie"],
   "author": "@leafxcy",
   "settings": [{
-    "id": "txstockV2 Suffix",
+    "id": "txstockV2Suffix",
     "name": "当前账号",
     "val": "1",
     "type": "number",
