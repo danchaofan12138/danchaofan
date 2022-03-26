@@ -29,7 +29,7 @@
     "type": "number",
     "desc": "0关闭，1打开，默认关闭"
   }],
-                        "repo": "https://github.com/leafxcy/JavaScript/main/ksjsb.js",
+                        "repo": "https://github.com/leafxcy/JavaScript/blob/main/ksjsb.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js"
   }
