@@ -1,5 +1,5 @@
 
-const $ = new Env('九章头条坤坤修改版');
+const $ = new Env('九章头条修改版');
 let signi = "X2dk9sdnwoifPv7L";
 let dlurl = "https://api.st615.com/v2/user/info?token=";
 let videoNum = 3;
