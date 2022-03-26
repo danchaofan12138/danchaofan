@@ -95,7 +95,7 @@
   } , {
       "id": "jzread",
   "name": "九章头条",
-  "keys": ["jzread"],
+  "keys": ["jzToken"],
   "author": "@danchaofan",
   "settings": [{
     "id": "jzreadSuffix",
