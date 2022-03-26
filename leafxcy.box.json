@@ -59,6 +59,39 @@
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/ks.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ks.js"
+  } , {
+      "id": "txstockV2",
+  "name": "腾讯自选股",
+  "keys": ["TxStockCookie"],
+  "author": "@leafxcy",
+  "settings": [{
+    "id": "txstockV2 Suffix",
+    "name": "当前账号",
+    "val": "1",
+    "type": "number",
+    "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+  }, {
+    "id": "TxStockNewbie",
+    "name": "新手任务",
+    "val": "0",
+    "type": "number",
+    "desc": "默认不做，需要填1"
+  }, {
+    "id": "TxStockCash",
+    "name": "提现",
+    "val": "5",
+    "type": "number",
+    "desc": "0代表不提现，1代表提现1元，5代表提现5元"
+  } , {
+    "id": "TxStockHelp",
+    "name": "互助任务",
+    "val": "1",
+    "type": "number",
+    "desc": "默认互助，需要多账号，不需要填0"
+  }],
+                        "repo": "https://github.com/leafxcy/JavaScript/blob/main/txstockV2.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstockV2.js"
   }
  ]
 }
