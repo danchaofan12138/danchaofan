@@ -6,7 +6,7 @@ let videoNum = 3;
 let articleNum = 3;
 
 !(async () => {
-    const jzreadTokenArr = ['VmIXNP-zuC2Es9AdbtR6vEgJfEVuKdmM'];
+    const jzreadTokenArr = [''];
     console.log(`共${jzreadTokenArr.length}个cookie`);
     for (let k = 0; k < jzreadTokenArr.length; k++) {
         jzToken = jzreadTokenArr[k];
