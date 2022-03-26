@@ -1,4 +1,0 @@
-hostname =jcollection.shuqireader.com,
-
-#时长
-https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/shuqi.js

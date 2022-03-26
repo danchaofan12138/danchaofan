@@ -1,4 +1,0 @@
-hostname=github.com,
-############## 圈x
-#githubAC获取body
-https:\/\/github\.com\/* url script-request-body https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/githubAC.js   

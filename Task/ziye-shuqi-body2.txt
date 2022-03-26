@@ -1,4 +1,0 @@
-hostname =render.shuqireader.com,
-
-#收益 任务 极速版任务
-https:\/\/render\.shuqireader\.com\/* url script-request-body https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/shuqi.js

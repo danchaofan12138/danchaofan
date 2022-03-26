@@ -1,5 +1,0 @@
-hostname=bububao.duoshoutuan.com,
-
-############## 圈x
-#步步宝获取TOKEN
-https:\/\/bububao\.duoshoutuan\.com\/user\/* url script-request-header https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/bububao.js

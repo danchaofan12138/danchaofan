@@ -1,8 +1,0 @@
-hostname =activity-center-web.shuqireader.com, 
-
-############## 圈x 
-
-#书旗小说获取header
-
-#极速版书城
-http:\/\/activity-center-web\.shuqireader\.com\/* url script-request-header https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/shuqi.js

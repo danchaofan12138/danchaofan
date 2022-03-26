@@ -1,5 +1,0 @@
-hostname=mobile.app.autohome.com.cn,
-############## 圈x
-
-#汽车之家极速版获取时段body
-http:\/\/mobile\.app\.autohome\.com\.cn\/* url script-request-body https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/qczjspeed.js
