@@ -11,12 +11,6 @@
   "keys": ["ksjsbCookie"],
   "author": "@leafxcy",
   "settings": [{
-    "id": "ksjsbSuffix",
-    "name": "当前账号",
-    "val": "1",
-    "type": "number",
-    "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-  }, {
     "id": "ksjsbCount",
     "name": "账号个数",
     "val": "1",
@@ -32,12 +26,6 @@
   "keys": ["ksCookie"],
   "author": "@leafxcy",
   "settings": [{
-    "id": "ksSuffix",
-    "name": "当前账号",
-    "val": "1",
-    "type": "number",
-    "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-  }, {
     "id": "ksCount",
     "name": "账号个数",
     "val": "1",
