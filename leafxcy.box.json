@@ -76,6 +76,14 @@
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/ddgy.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ddgy.js"
+  } , {
+      "id": "wbtc",
+  "name": "58同城",
+  "keys": ["wbtcCookie"],
+  "author": "@leafxcy",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/wbtc.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/wbtc.js"
   }
  ]
 }
