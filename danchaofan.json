@@ -1,0 +1,89 @@
+{
+  "id": "leafxcy.app.sub",
+  "name": "leafxcy 脚本订阅",
+  "author": "@leafxcy",
+  "icon": "https://github.com/danchaofan12138/danchaofan/blob/main/B14C14B0-95B0-4A1C-8445-ECC62B249071.jpeg",
+  "repo": "https://github.com/leafxcy/JavaScript",
+  "apps": [
+    {
+      "id": "ksjsb",
+  "name": "快手极速版",
+  "keys": ["ksjsbCookie"],
+  "author": "@leafxcy",
+  "settings": [{
+    "id": "ksjsbCount",
+    "name": "账号个数",
+    "val": "1",
+    "type": "number",
+    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+  }],
+                        "repo": "https://github.com/leafxcy/JavaScript/blob/main/ksjsb.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js"
+  }, {
+      "id": "ks",
+  "name": "快手视频",
+  "keys": ["ksCookie"],
+  "author": "@leafxcy",
+  "settings": [{
+    "id": "ksCount",
+    "name": "账号个数",
+    "val": "1",
+    "type": "number",
+    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+  }],
+                        "repo": "https://github.com/leafxcy/JavaScript/blob/main/ks.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ks.js"
+  } , {
+      "id": "txstockV2",
+  "name": "腾讯自选股",
+  "keys": ["TxStockCookie"],
+  "author": "@leafxcy",
+  "settings": [{
+    "id": "txstockV2Suffix",
+    "name": "当前账号",
+    "val": "1",
+    "type": "number",
+    "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+  }, {
+    "id": "TxStockNewbie",
+    "name": "新手任务",
+    "val": "0",
+    "type": "number",
+    "desc": "默认不做，需要填1"
+  }, {
+    "id": "TxStockCash",
+    "name": "提现",
+    "val": "5",
+    "type": "number",
+    "desc": "0代表不提现，1代表提现1元，5代表提现5元"
+  } , {
+    "id": "TxStockHelp",
+    "name": "互助任务",
+    "val": "1",
+    "type": "number",
+    "desc": "默认互助，需要多账号，不需要填0"
+  }],
+                        "repo": "https://github.com/leafxcy/JavaScript/blob/main/txstockV2.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstockV2.js"
+   } , {
+      "id": "ddgy",
+  "name": "滴滴果园",
+  "keys": ["ddgyToken"],
+  "author": "@leafxcy",
+                        "repo": "https://github.com/leafxcy/JavaScript/blob/main/ddgy.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ddgy.js"
+  } , {
+      "id": "wbtc",
+  "name": "58同城",
+  "keys": ["wbtcCookie"],
+  "author": "@leafxcy",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/wbtc.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/wbtc.js"
+  }
+ ]
+}
