@@ -122,6 +122,14 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/bsxq.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/bsxq.js"
+  } , {
+      "id": "zlsc",
+  "name": "足乐商城",
+  "keys": ["zlzh", "balance", "zlname"],
+  "author": "@111",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/zlsc.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/zlsc.js"
   }
  ]
 }
