@@ -122,6 +122,34 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/sm.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/sm.js"
-  }
+  } , {
+      "id": "yfw",
+  "name": "有蜂窝",
+  "keys": ["yfwzhmm"],
+  "author": "@Luobook",
+  "settings": [{
+    "id": "tx_zh",
+    "name": "提现支付宝账号",
+    "val": "1",
+    "type": "number",
+    "desc": ""
+  }, {
+    "id": "tx_name",
+    "name": "支付宝姓名",
+    "val": "0",
+    "type": "number",
+    "desc": ""
+  }, {
+    "id": "cdkey",
+    "name": "卡密",
+    "val": "",
+    "type": "number",
+    "desc": "0代表不提现，1代表提现1元，5代表提现5元"
+  }],
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/yfw.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/yfw.js"
+  } , {
+   }
  ]
 }
