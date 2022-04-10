@@ -137,7 +137,7 @@
     "id": "tx_name",
     "name": "支付宝姓名",
     "val": "0",
-    "type": "number",
+    "type": "text",
     "desc": ""
   }, {
     "id": "cdkey",
