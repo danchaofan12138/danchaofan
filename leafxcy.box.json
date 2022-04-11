@@ -99,22 +99,6 @@
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/jztt.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jztt.js"
-  } , {
-      "id": "bsxq",
-  "name": "宝石星球",
-  "keys": ["bsxq"],
-  "author": "@肥皂",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/bsxq.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/bsxq.js"
-  } , {
-      "id": "sm",
-  "name": "夙铭",
-  "keys": ["sm_data"],
-  "author": "@tom",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/sm.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/sm.js"
   }
  ]
 }
