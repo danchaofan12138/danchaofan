@@ -150,7 +150,7 @@
     "id": "cdkey",
     "name": "授权码",
     "val": "",
-    "type": "number",
+    "type": "text",
     "desc": "群里获取"
   }],
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/xhn.js",
