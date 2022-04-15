@@ -131,31 +131,13 @@
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/yfw.js"
    } , {
-      "id": "xhn",
-  "name": "新湖南",
-  "author": "@feiz",
-  "settings": [{
-    "id": "xhnzh",
-    "name": "新湖南账号",
-    "val": "",
-    "type": "number",
-    "desc": "填入注册新湖南的账号"
-  }, {
-    "id": "xhnmm",
-    "name": "新湖南密码",
-    "val": "0",
-    "type": "text",
-    "desc": "新湖南密码"
-  }, {
-    "id": "cdkey",
-    "name": "授权码",
-    "val": "",
-    "type": "text",
-    "desc": "群里获取"
-  }],
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/xhn.js",
+      "id": "kgdzb",
+  "name": "酷狗大字版",
+  "keys": ["kugouurl"],
+  "author": "@Luobook",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/kgdzb.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/xhn.js"
-   } 
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/kgdzb.js"
+   }
  ]
 }
