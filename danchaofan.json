@@ -114,23 +114,7 @@
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/jztt.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jztt.js"
-  } , {
-      "id": "sm",
-  "name": "夙铭",
-  "keys": ["sm_data"],
-  "author": "@tom",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/sm.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/sm.js"
-  } , {
-      "id": "yfw",
-  "name": "有蜂窝",
-  "keys": ["yfwzhmm", "tx_zh", "tx_name", "cdkey"],
-  "author": "@Luobook",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/yfw.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/yfw.js"
-   } , {
+  }, {
       "id": "kgdzb",
   "name": "酷狗大字版",
   "keys": ["kugouurl"],
@@ -146,6 +130,21 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/kgyy.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/kgyy.js"
-   }
+   } , {
+      "id": "zmydapp",
+  "name": "醉美阅读",
+  "keys": ["zmydCk"],
+  "author": "@DD",
+  "settings": [{
+    "id": "zmydtz",
+    "name": "通知",
+    "val": "1",
+    "type": "number",
+    "desc": "默认通知，不通知改成2"
+  }],
+                        "repo": "https://github.com/leafxcy/JavaScript/blob/main/zmydapp.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/zmydapp.js"
+  }
  ]
 }
