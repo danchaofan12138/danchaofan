@@ -153,6 +153,14 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ffqc.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ffqc.js"
+   } , {
+      "id": "sqq",
+  "name": "省钱钱",
+  "keys": ["soy_sqq_data"],
+  "author": "@soy",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/sqq.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/sqq.js"
    }
  ]
 }
