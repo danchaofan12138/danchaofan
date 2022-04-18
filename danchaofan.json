@@ -130,37 +130,6 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/kgyy.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/kgyy.js"
-   } , {
-      "id": "zmydapp",
-  "name": "醉美阅读",
-  "keys": ["zmydCk"],
-  "author": "@DD",
-  "settings": [{
-    "id": "zmydtz",
-    "name": "通知",
-    "val": "1",
-    "type": "number",
-    "desc": "默认通知，不通知改成2"
-  }],
-                        "repo": "https://github.com/leafxcy/JavaScript/blob/main/zmydapp.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/zmydapp.js"
-  } , {
-      "id": "ffqc",
-  "name": "飞凡汽车",
-  "keys": ["ffqc_data"],
-  "author": "@wu",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ffqc.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ffqc.js"
-   } , {
-      "id": "sqq",
-  "name": "省钱钱",
-  "keys": ["soy_sqq_data"],
-  "author": "@soy",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/sqq.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/sqq.js"
    }
  ]
 }
