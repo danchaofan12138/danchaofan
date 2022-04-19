@@ -138,6 +138,14 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/kk.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/kk.js"
+   }  , {
+      "id": "gdbh",
+  "name": "果冻宝盒",
+  "keys": ["gdbhhd"],
+  "author": "@dan",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/gdbh.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/gdbh.js"
    }
  ]
 }
