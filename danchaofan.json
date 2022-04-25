@@ -151,6 +151,13 @@
   "name": "火云邪神",
   "keys": ["hyxshd"],
   "author": "@tom",
+  "settings": [{
+    "id": "hyxscount",
+    "name": "账号个数",
+    "val": "1",
+    "type": "number",
+    "desc": "设置该脚本的账号数量"
+  }],
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/hyxs.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hyxs.js"
