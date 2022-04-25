@@ -3,6 +3,9 @@
 
 扫码打开小程序获取ck  小程序进不去 自己想办法  能撸到多少算多少吧  
 
+20220425 修复报错，增加自动收取果实，加工果实等任务
+
+
 撸了不一定有，不撸肯定没有！
 TG频道 https://t.me/tom_ww     
 
@@ -72,17 +75,13 @@ $.message = ''
         }
 
         await hyxsusers()
+       await $.wait(2000)
+       await hyxssign()
         await $.wait(2000)
-        await hyxssign()
+       await hyxsland()
+        await $.wait(20000)
+        await hyxspage()
         await $.wait(2000)
-        await hyxsland()
-        await $.wait(2000)
-
-        for (let c = 0; c < 6; c++) {
-          $.index = c + 1
-          await hyxsbrowse()
-          await $.wait(DD)
-        }
         message()
       }
     }
@@ -104,14 +103,14 @@ function hyxsusers(timeout = 0) {
   return new Promise((resolve) => {
     let url = {
       url: `https://yezi.jiaaisi.cn/users`,
-      headers: JSON.parse($.getdata('hyxshd')),
+      headers: JSON.parse(hyxshd),
     }
     $.get(url, async (err, resp, data) => {
       try {
         data = JSON.parse(data)
-        if (data.status == true) {
-          console.log('\n用户名：' + data.user.nickname)
-          $.message += '\n【用户名】：' + data.user.nickname
+        if (data.status ==`true`) {
+          console.log('\n用户名：' + data.users.nickname)
+          $.message += '\n【用户名】：' + data.users.nickname
         } else {
           console.log('\n' + data.message)
           $.message += '\n' + data.message
@@ -128,15 +127,21 @@ function hyxssign(timeout = 0) {
   return new Promise((resolve) => {
     let url = {
       url: `https://yezi.jiaaisi.cn/excitation/browse`,
-      headers: JSON.parse($.getdata('hyxshd')),
-      body : `{"type":"signin","mark":""}`,
+      headers: JSON.parse(hyxshd),
+      body : `{"type":"signin","mark":""}`
     }
     $.post(url, async (err, resp, data) => {
       try {
         data = JSON.parse(data)
-        if (data.status == true) {
+
+        if (data.status == `true`) {
           console.log('\n签到成功')
-         // $.message += '\n【用户名】：' + data.user.nickname
+         // $.message += '\n【用户名】：' + data.users.nickname
+        for (let c = 0; c < 6; c++) {
+          $.index = c + 1
+          await hyxsbrowse()
+          await $.wait(DD)
+        }
         } else {
           console.log('\n签到' + data.message)
          // $.message += '\n签到' + data.message
@@ -153,15 +158,15 @@ function hyxsbrowse(timeout = 0) {
   return new Promise((resolve) => {
     let url = {
       url: `https://yezi.jiaaisi.cn/excitation/browse`,
-      headers: JSON.parse($.getdata('hyxshd')),
-      body : `{"type":"sunlight","mark":""}`,
+      headers: JSON.parse(hyxshd),
+      body : `{"type":"sunlight","mark":""}`
     }
     $.post(url, async (err, resp, data) => {
       try {
         data = JSON.parse(data)
-        if (data.status == true) {
+        if (data.status == `true`) {
           console.log('\n观看视频成功')
-         // $.message += '\n【用户名】：' + data.user.nickname
+         // $.message += '\n【用户名】：' + data.users.nickname
         } else {
           console.log('\n观看视频：' + data.message)
          // $.message += '\n签到' + data.message
@@ -178,17 +183,82 @@ function hyxsland(timeout = 0) {
   return new Promise((resolve) => {
     let url = {
       url: `https://yezi.jiaaisi.cn/land`,
-      headers: JSON.parse($.getdata('hyxshd')),
+      headers: JSON.parse(hyxshd),
       body : ``,
     }
     $.post(url, async (err, resp, data) => {
       try {
         data = JSON.parse(data)
-        if (data.status == true && data.land.number != 0) {
-          console.log('\n收获果实成功，获得果实：'+data.land.number)
-          await hyxspage()
+        if (data.status == `true`) {
+console.log(`开始检测土地状态`)
+for(let i=-1;i<data.land.length;i++){
+  mark = data.land[i+1].mark
+  if(data.land[i+1].status == 3){
+    console.log(`监测到${mark}号土地需要施肥，即将为您施肥`)
+    
+    await hyxsone()
+    await $.wait(3000)
+  }
+  
+  if(data.land[i+1].number >= 1){
+    console.log(`当前${mark}号土地果实数量：${data.land[i+1].number}`)
+    //console.log(`\n准备收取果实`)
+    
+    await hyxscollect()
+    await $.wait(3000)
+  }
+}
+
         } else {
-          console.log('\n收获果实：当前果实未成熟' )
+          console.log(`\n收获果实：当前果实未成熟`)
+          
+        }
+      } catch (e) {
+      } finally {
+        resolve()
+      }
+    }, timeout)
+  })
+}
+function hyxsone(timeout = 0) {
+  return new Promise((resolve) => {
+    let url = {
+      url: `https://yezi.jiaaisi.cn/land/one`,
+      headers: JSON.parse(hyxshd),
+     body : `{"mark":${mark}}`
+    }
+    $.post(url, async (err, resp, data) => {
+      try {
+        data = JSON.parse(data)
+        if (data.status == `true`) {
+         console.log(`\n${mark}号土地施肥成功`)
+          await $.wait(3000)
+        } else {
+          console.log(`\n${mark}号土地施肥失败`)
+          
+        }
+      } catch (e) {
+      } finally {
+        resolve()
+      }
+    }, timeout)
+  })
+}
+function hyxscollect(timeout = 0) {
+  return new Promise((resolve) => {
+    let url = {
+      url: `https://yezi.jiaaisi.cn/collect`,
+      headers: JSON.parse(hyxshd),
+     body : `{"land":"${mark}"}`
+    }
+    $.post(url, async (err, resp, data) => {
+      try {
+        data = JSON.parse(data)
+        if (data.status == `true`) {
+         console.log(`\n收获${mark}号土地果实成功`)
+          await $.wait(3000)
+        } else {
+          console.log(`\n收获${mark}号土地果实成功`)
         }
       } catch (e) {
       } finally {
@@ -202,7 +272,7 @@ function hyxspage(timeout = 0) {
   return new Promise((resolve) => {
     let url = {
       url: `https://yezi.jiaaisi.cn/backpack?page=1`,
-      headers: JSON.parse($.getdata('hyxshd')),
+      headers: JSON.parse(hyxshd),
      // body : ``,
     }
     $.get(url, async (err, resp, data) => {
@@ -212,11 +282,40 @@ function hyxspage(timeout = 0) {
           for(let i=0;i<data.backpack.data.length;i++){
             console.log(`当前背包库存：${data.backpack.data[i].shop_name}:${data.backpack.data[i].number}`);
             if(data.backpack.data[i].shop_name == `新鲜椰子` && data.backpack.data[i].number >= 10){
+              
               await hyxssubmit()
             }
+            if(data.backpack.data[i].shop_name == `肥料` && data.backpack.data[i].number <= 1){
+              await hyxsbuy()
+            }
           }
+          await hyxsmachining()
         } else {
           console.log('\n背包库存获取失败' )
+        }
+      } catch (e) {
+      } finally {
+        resolve()
+      }
+    }, timeout)
+  })
+}
+
+function hyxsbuy(timeout = 0) {
+  return new Promise((resolve) => {
+    let url = {
+      url: `https://yezi.jiaaisi.cn/shop/buy`,
+      headers: JSON.parse(hyxshd),
+     body : `{"id":1003,"amount":1}`
+    }
+    $.post(url, async (err, resp, data) => {
+      try {
+        data = JSON.parse(data)
+        if (data.status == `true`) {
+         console.log(data.message)
+          
+        } else {
+          console.log('\n购买失败，阳光不足' )
         }
       } catch (e) {
       } finally {
@@ -229,17 +328,19 @@ function hyxssubmit(timeout = 0) {
   return new Promise((resolve) => {
     let url = {
       url: `https://yezi.jiaaisi.cn/machining/submit`,
-      headers: JSON.parse($.getdata('hyxshd')),
+      headers: JSON.parse(hyxshd),
       body : `{"amount":10}`,
     }
     $.post(url, async (err, resp, data) => {
       try {
         data = JSON.parse(data)
-        if (data.status == true) {
+        if (data.status == `true`) {
           console.log('\n'+data.message)
           $.message += data.message
+          
         } else {
           console.log('\n'+data.message )
+          
         }
       } catch (e) {
       } finally {
@@ -248,6 +349,62 @@ function hyxssubmit(timeout = 0) {
     }, timeout)
   })
 }
+
+function hyxsmachining(timeout = 0) {
+  return new Promise((resolve) => {
+    let url = {
+      url: `https://yezi.jiaaisi.cn/machining`,
+      headers: JSON.parse(hyxshd)
+      //body : `{"amount":10}`,
+    }
+    $.get(url, async (err, resp, data) => {
+      try {
+        data = JSON.parse(data)
+        if (data.status == `true`) {
+          console.log(`当前共有${data.machining.length}个产品正在加工`)
+          for(let i=0;i<data.machining.length;i++){
+            id = data.machining[i].id
+           // console.log(id);
+            output = data.machining[i].output
+           // console.log(output);
+            await hyxstakeout()
+          }
+         // $.message += data.message
+        } else {
+          console.log('\n'+data.machining )
+        }
+      } catch (e) {
+      } finally {
+        resolve()
+      }
+    }, timeout)
+  })
+}
+
+function hyxstakeout(timeout = 0) {
+  return new Promise((resolve) => {
+    let url = {
+      url: `https://yezi.jiaaisi.cn/machining/takeout`,
+      headers: JSON.parse(hyxshd),
+      body : `{"id":${id}}`,
+    }
+    $.post(url, async (err, resp, data) => {
+      try {
+        data = JSON.parse(data)
+        if (data.status == `true`) {
+          console.log(`存入${output}ml椰汁成功`)
+         // $.message += data.message
+        } else {
+         // console.log('\n'+data.message)
+        }
+      } catch (e) {
+      } finally {
+        resolve()
+      }
+    }, timeout)
+  })
+}
+
 
 function message() {
   if (tz == 1) {
