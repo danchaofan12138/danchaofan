@@ -190,6 +190,15 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/xyfs.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/xyfs.js"
+   } , {
+      "id": "xyytp",
+  "name": "咸鱼要躺平",
+  "keys": ["xyytp_data"],
+  "author": "@yml",
+ 
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/xyytp.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/xyytp.js"
    } 
  ]
 }
