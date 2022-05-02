@@ -168,6 +168,28 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/hyxs.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hyxs.js"
+   }  , {
+      "id": "xyfs",
+  "name": "咸鱼翻身",
+  "keys": ["xyfshd", "xyfshd2", "xyfshd3", "xyfshd4", "xyfshd5", "xyfshd6"],
+  "author": "@tom",
+  "settings": [{
+    "id": "xyfscount",
+    "name": "账号个数",
+    "val": "1",
+    "type": "number",
+    "desc": "设置该脚本的账号数量"
+  }, {
+    "id": "xyfsstatus",
+    "name": "获取账号顺序",
+    "val": "1",
+    "type": "number",
+    "desc": "填入数字几，就会获取第几个账号ck"
+  }
+],
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/xyfs.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/xyfs.js"
    } 
  ]
 }
