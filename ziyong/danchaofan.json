@@ -179,9 +179,9 @@
   "name": "美团",
   "keys": ["meituanCookie"],
   "author": "@danchaofan",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/美团/meituan.js",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/meituan/meituan.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/美团/meituan.js"
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/meituan/meituan.js"
    }
  ]
 }
