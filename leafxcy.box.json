@@ -146,7 +146,7 @@
    } , {
       "id": "meituan",
   "name": "美团",
-  "keys": ["meituanCookie"],
+  "keys": ["meituanCookie", "meituanDrawKeyword"],
   "author": "@danchaofan",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/美团/meituan.js",
                             "icons": ["https://github.com/danchaofan12138/danchaofan/blob/main/hbd.jpeg"],
