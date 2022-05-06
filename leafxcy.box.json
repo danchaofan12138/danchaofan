@@ -152,13 +152,13 @@
                             "icons": ["https://github.com/danchaofan12138/danchaofan/blob/main/hbd.jpeg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/美团/meituan.js"
    } , {
-      "id": "rxsq",
-  "name": "热项社圈",
-  "keys": ["rxsqCookie"],
+      "id": "gqsl",
+  "name": "广汽三菱",
+  "keys": ["gqslAccount"],
   "author": "@dan",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/rexiangshequan/rxsq.js",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/rxsq.js"
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/guangqisanling/gqsl.js"
    }
  ]
 }
