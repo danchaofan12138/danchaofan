@@ -160,13 +160,21 @@
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js"
    } , {
-      "id": "gqsl",
+      "id": "gqsl_leaf",
+  "name": "广汽三菱leaf",
+  "keys": ["gqslAccount"],
+  "author": "@leaf",
+                        "repo": "https://github.com/xl2101200/-/main/gqsl.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/blob/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js"
+   } , {
+      "id": "gqsl_tom",
   "name": "广汽三菱tom",
   "keys": ["GQSLAuthorization"],
   "author": "@tom",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/guangqisanling/gqsl.js"
+                                "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js"
    }
  ]
 }
