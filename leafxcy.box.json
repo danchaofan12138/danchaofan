@@ -153,9 +153,18 @@
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/美团/meituan.js"
    } , {
       "id": "gqsl",
-  "name": "广汽三菱",
+  "name": "广汽三菱leaf",
   "keys": ["gqslAccount"],
   "author": "@dan",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js
+"
+   } , {
+      "id": "gqsl",
+  "name": "广汽三菱tom",
+  "keys": ["GQSLAuthorization"],
+  "author": "@tom",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/guangqisanling/gqsl.js"
