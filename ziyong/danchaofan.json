@@ -80,6 +80,18 @@
       "id": "wbtc",
   "name": "58同城",
   "keys": ["wbtcCookie"],
+  "descs_html": [        
+        "使用方式：自己抓包获取相应的字段。多账号用@连接"
+      ],
+  "settings": [
+        {
+          "id": "wbtcCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "wbtcCookie"
   "author": "@leafxcy",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/wbtc.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
