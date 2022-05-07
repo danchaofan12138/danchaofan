@@ -194,22 +194,6 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/meituan/meituan.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/meituan/meituan.js"
-   }  , {
-      "id": "zqjsb_anzhou",
-  "name": "中青安卓版",
-  "keys": ["zqkdFastCookie"],
-  "author": "@leaf",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/meituan/meituan.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/zqFast/zqkdFast_read.js"
-   } , {
-      "id": "rxsq",
-  "name": "热项社圈",
-  "keys": ["rxsqCookie"],
-  "author": "@dan",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/rexiangshequan/rxsq.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/rxsq.js"
    } , {
       "id": "gqsl_leaf",
   "name": "广汽三菱leaf",
