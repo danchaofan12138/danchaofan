@@ -11,11 +11,13 @@
   "keys": ["ksjsbCookie"],
   "author": "@leafxcy",
   "settings": [{
-    "id": "ksjsbCount",
-    "name": "账号个数",
-    "val": "1",
-    "type": "number",
-    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+          "id": "ksjsbCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "ksjsbCookie"
   }],
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/ksjsb.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
@@ -26,11 +28,13 @@
   "keys": ["ksCookie"],
   "author": "@leafxcy",
   "settings": [{
-    "id": "ksCount",
-    "name": "账号个数",
-    "val": "1",
-    "type": "number",
-    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    "id": "ksCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "ksCookie"
   }],
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/ks.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
@@ -119,11 +123,13 @@
   "keys": ["jzttToken"],
   "author": "@leafxcy",
   "settings": [{
-    "id": "jzCount",
-    "name": "账号个数",
-    "val": "1",
-    "type": "number",
-    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+          "id": "jzttToken",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "jzttToken"
   }],
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/jztt.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
@@ -132,6 +138,15 @@
       "id": "kgdzb",
   "name": "酷狗大字版",
   "keys": ["kugouurl"],
+  "settings": [{
+          "id": "kugouurl",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "kugouurl"
+  }],
   "author": "@Luobook",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/kgdzb.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
@@ -140,6 +155,15 @@
       "id": "kgyy",
   "name": "酷狗音乐",
   "keys": ["kgyy"],
+  "settings": [{
+          "id": "kgyy",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "kgyy"
+  }],
   "author": "@danchaofan",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/kgyy.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
@@ -200,6 +224,15 @@
       "id": "gqsl_leaf",
   "name": "广汽三菱leaf",
   "keys": ["gqslAccount"],
+  "settings": [{
+          "id": "gqslAccount",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "gqslAccount"
+  }],
   "author": "@leaf",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/blob/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
@@ -208,6 +241,15 @@
       "id": "gqsl_tom",
   "name": "广汽三菱tom",
   "keys": ["GQSLAuthorization"],
+  "settings": [{
+          "id": "GQSLAuthorization",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "GQSLAuthorization"
+  }],
   "author": "@tom",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
