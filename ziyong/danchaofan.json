@@ -37,7 +37,7 @@
           "desc": "ksCookie"
   }],
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/ks.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ks.js"
   } , {
       "id": "txstockV2",
@@ -70,7 +70,7 @@
     "desc": "默认互助，需要多账号，不需要填0"
   }],
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/txstockV2.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstockV2.js"
    } , {
       "id": "ddgy",
@@ -78,7 +78,7 @@
   "keys": ["ddtoken"],
   "author": "@passerby",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
   } , {
       "id": "wbtc",
@@ -100,7 +100,7 @@
       ],
   "author": "@leafxcy",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/wbtc.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/wbtc.js"
   } , {
       "id": "xlh",
@@ -115,7 +115,7 @@
     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
   }],
                         "repo": "https://github.com/yml2213/javascript/master/blob/xlh/xlh.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/yml2213/javascript/master/xlh/xlh.js"
   } , {
       "id": "jztt",
@@ -132,7 +132,7 @@
           "desc": "jzttToken"
   }],
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/jztt.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jztt.js"
   }, {
       "id": "kgdzb",
@@ -149,7 +149,7 @@
   }],
   "author": "@Luobook",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/kgdzb.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/kgdzb.js"
    } , {
       "id": "kgyy",
@@ -166,7 +166,7 @@
   }],
   "author": "@danchaofan",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/kgyy.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/kgyy.js"
    } , {
       "id": "hyxs",
@@ -188,7 +188,7 @@
   }
 ],
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/hyxs.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hyxs.js"
    }  , {
       "id": "xyfs",
@@ -210,7 +210,7 @@
   }
 ],
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/xyfs.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/xyfs.js"
    } , {
       "id": "meituan",
@@ -218,7 +218,7 @@
   "keys": ["meituanCookie", "meituanDrawKeyword"],
   "author": "@danchaofan",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/meituan/meituan.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/meituan/meituan.js"
    } , {
       "id": "gqsl_leaf",
@@ -235,7 +235,7 @@
   }],
   "author": "@leaf",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/blob/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/guangqisanling/gqsl.js"
    } , {
       "id": "gqsl_tom",
@@ -252,7 +252,7 @@
   }],
   "author": "@tom",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js"
    }
  ]
