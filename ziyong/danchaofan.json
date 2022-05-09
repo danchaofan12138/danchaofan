@@ -29,7 +29,7 @@
           "name": "提现金额",
           "val": "",
           "type": "textarea",
-          "desc": "提现金额，填入后每天固定体现"
+          "desc": "固定提现金额，不填按默认提现"
   }],
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/ksjsb.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
