@@ -10,15 +10,7 @@
   "name": "快手极速版",
   "keys": ["ksjsbCookie"],
   "author": "@leafxcy",
-  "settings": [{
-          "id": "ksjsbCookie",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "ksjsbCookie"
-  } , {
+  "settings": [ {
           "id": "ksjsbWithdrawTime",
           "name": "提现时间",
           "val": "15",
@@ -30,6 +22,14 @@
           "val": "",
           "type": "textarea",
           "desc": "固定提现金额，不填按默认提现"
+  },{
+          "id": "ksjsbCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "ksjsbCookie"
   }],
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/ksjsb.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
