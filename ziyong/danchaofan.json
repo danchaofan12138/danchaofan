@@ -39,7 +39,19 @@
   "name": "快手视频",
   "keys": ["ksCookie"],
   "author": "@leafxcy",
-  "settings": [{
+  "settings": [ {
+          "id": "ksWithdrawTime",
+          "name": "提现时间",
+          "val": "15",
+          "type": "textarea",
+          "desc": "提现时间，默认15点"
+  } , {
+          "id": "ksCash",
+          "name": "提现金额",
+          "val": "",
+          "type": "textarea",
+          "desc": "固定提现金额，不填按默认提现"
+  },{
     "id": "ksCookie",
           "name": "CK 列表",
           "val": "",
