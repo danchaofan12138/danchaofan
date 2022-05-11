@@ -251,9 +251,26 @@
           "desc": "GQSLAuthorization"
   }],
   "author": "@tom",
+                        "repo": "https://github.com",
+                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+                                "script": "https://raw.githubusercontent.com/xl2101200/-/main/hmd.js"
+   } , {
+      "id": "hnd",
+  "name": "和睦度",
+  "keys": ["HMDtoken"],
+  "settings": [{
+          "id": "HMDtoken",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "多账号换行分开"
+  }],
+  "author": "@tom",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js"
+                                "script": "https://raw.githubusercontent.com/xl2101200/-/main/hmd.js"
    }
  ]
 }
