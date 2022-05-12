@@ -271,7 +271,7 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
                             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
                                 "script": "https://raw.githubusercontent.com/xl2101200/-/main/hmd.js"
-   }  , {
+   } , {
       "id": "elm.dan",
   "name": "饿了么",
   "keys": ["elmck"],
