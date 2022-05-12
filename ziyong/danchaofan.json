@@ -279,7 +279,7 @@
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js"
    } , {
-      "id": "elm",
+      "id": "elm.dan",
   "name": "饿了么",
   "keys": ["elmck"],
   "settings": [{
@@ -290,8 +290,8 @@
     "desc": "默认为60，当为60时，9点59分运行脚本，10点准时开枪，如果网络慢可以设置为59，则9点59分59秒开抢"
   }, {
     "id": "elmdh",
-    "name": "对换开关",
-    "val": "false",
+    "name": "兑换开关",
+    "val": "true",
     "type": "boolean", 
     "desc": "默认为false,开启兑换，如需开启兑换，请设置为true"
   }],
