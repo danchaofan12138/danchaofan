@@ -293,7 +293,7 @@
     "name": "兑换开关",
     "val": "true",
     "type": "boolean", 
-    "desc": "默认为true,开启兑换，如需开启兑换，请设置为false"
+    "desc": "默认为true,开启兑换，如不需开启兑换，请设置为false"
   }],
   "author": "@dan",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/elm/lb_elm.js",
