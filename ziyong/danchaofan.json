@@ -278,6 +278,27 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js"
+   } , {
+      "id": "elm",
+  "name": "饿了么",
+  "keys": ["elmck"],
+  "settings": [{
+    "id": "SM_STARTTIME",
+    "name": "定时抢券",
+    "val": "60",
+    "type": "number",
+    "desc": "默认为60，当为60时，9点59分运行脚本，10点准时开枪，如果网络慢可以设置为59，则9点59分59秒开抢"
+  }, {
+    "id": "elmdh",
+    "name": "对换开关",
+    "val": "60",
+    "type": "number",
+    "desc": "默认为false,开启兑换，如需开启兑换，请设置为true"
+  }],
+  "author": "@dan",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com/xl2101200/-/main/gqsl.js"
    }
  ]
 }
