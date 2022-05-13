@@ -292,6 +292,23 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/elm/lb_elm.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/elm/lb_elm.js"
-   }
+   } , {
+      "id": "tuhu",
+  "name": "途虎养车tom",
+  "keys": ["THYCtoken"],
+  "settings": [{
+          "id": "THYCtoken",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "途虎养车CK，多账号换行隔开"
+  }],
+  "author": "@tom",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com/xl2101200/-/main/thyc.js"
+   } 
  ]
 }
