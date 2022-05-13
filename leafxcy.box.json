@@ -303,7 +303,7 @@
           "type": "textarea",
           "autoGrow": true,
           "rows": 8,
-          "desc": "途虎养车CK，多账号换行隔开"
+          "desc": "THYCtoken"
   }],
   "author": "@tom",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/guangqisanling/gqsl.js",
