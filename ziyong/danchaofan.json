@@ -321,13 +321,11 @@
   "name": "饿了么_leaf",
   "keys": ["elmCookie"],
   "settings": [{
-          "id": "elmCookie",
-          "name": "CK 列表",
+          "id": "elmOrderFlag",
+          "name": "10抢无门槛券",
           "val": "",
           "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "elmCookie"
+          "desc": "设置elmOrderFlag为1，每个账号单独设置并用&隔开"
   }],
   "author": "@leaf",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/elm/elm.js",
