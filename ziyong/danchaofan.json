@@ -323,8 +323,8 @@
   "settings": [{
           "id": "elmOrderFlag",
           "name": "10抢无门槛券",
-          "val": "",
-          "type": "textarea",
+          "val": "1",
+          "type": "number",
           "desc": "设置elmOrderFlag为1，每个账号单独设置并用&隔开"
   }],
   "author": "@leaf",
