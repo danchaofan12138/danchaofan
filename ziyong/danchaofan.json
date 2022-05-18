@@ -324,7 +324,7 @@
           "id": "elmOrderTime",
           "name": "10抢无门槛券",
           "val": "9:59:59:950",
-          "type": "textarea",
+          "type": "text",
           "desc": ""
   }],
   "author": "@leaf",
