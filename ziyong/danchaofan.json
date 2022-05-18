@@ -331,6 +331,23 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/elm/elm.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js"
+   } , {
+      "id": "jzyl",
+  "name": "健走有礼",
+  "keys": ["jzylCookie"],
+  "settings": [{
+          "id": "jzylCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "多账号用@隔开"
+  }],
+  "author": "@leaf",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/jianzouyouli/jzyl.js",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com"
    } 
  ]
 }
