@@ -369,6 +369,15 @@
       "id": "zssq_leaf",
   "name": "追书神器",
   "keys": ["zssqCookie"],
+  "settings": [{
+          "id": "zssqCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "zssqCookie"
+  }],
   "author": "@leaf",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/zhuishushenqi/zssq.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
