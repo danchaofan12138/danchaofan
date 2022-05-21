@@ -341,8 +341,15 @@
    } , {
       "id": "fqxs_3.5",
   "name": "番茄小说",
-  "desc": "变量比较多，多账号使用#隔开或者换行隔开",
+  "desc": "变量比较多，按照脚本说明抓取",
   "keys": ["fqxsurl", "fqxscookie", "fqxstoken", "fqxsua", "fqxsbxurl","fqxsxsscookie"],
+  "settings": [{
+    "id": "xfqxsstatus",
+    "name": "当前账号数",
+    "val": "1",
+    "type": "number",
+    "desc": ""
+  } ],
   "author": "@dan",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/fanqiexiaoshuo/fqxs.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
