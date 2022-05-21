@@ -338,6 +338,14 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/zhuishushenqi/zssq.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/zssq.js"
+   } , {
+      "id": "fqxs_3.5",
+  "name": "番茄小说",
+  "keys": ["fqxsurl", "fqxscookie", "fqxstoken", "fqxsua", "fqxsxsscookie"],
+  "author": "@leaf",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/zhuishushenqi/zssq.js",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/zssq.js"
    } 
  ]
 }
