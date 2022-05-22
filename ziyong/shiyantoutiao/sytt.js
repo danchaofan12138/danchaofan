@@ -5,9 +5,8 @@ status = (status = ($.getval("syttstatus") || "1")) > 1 ? `${status}` : "";
 
 const sytturlArr = [], sytthdArr = [], syttcount = ''
 
-let user = $.getdata('sytturl')
-let pwd = $.getdata('sytthd')
 let uid = $.getdata('syttuid')
+let token = $.getdata('sytttk')
 
 
 !(async () => {
