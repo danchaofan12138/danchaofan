@@ -342,7 +342,7 @@
       "id": "fqxs_3.5",
   "name": "番茄小说",
   "desc": "变量比较多，按照脚本说明抓取",
-  "keys": ["fqxsurl", "fqxscookie", "fqxstoken", "fqxsua", "fqxsbxurl","fqxsxsscookie", "fqxsspurl", "fqxsxsscookie", "fqxsurl2", "fqxscookie2", "fqxstoken2", "fqxsua2", "fqxsbxurl2","fqxsxsscookie2","fqxsspurl2"],
+  "keys": ["fqxsurl", "fqxscookie", "fqxstoken", "fqxsua", "fqxsbxurl", "fqxsxsscookie", "fqxsxsscookie", "fqxsurl2", "fqxscookie2", "fqxstoken2", "fqxsua2", "fqxsbxurl2","fqxsxsscookie2", "fqxsxsscookie2"],
   "settings": [{
     "id": "xfqxsstatus",
     "name": "当前账号数",
