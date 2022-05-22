@@ -363,7 +363,7 @@
    }  , {
       "id": "sytt",
   "name": "十堰头条",
-  "keys": ["syttuid","sytturl", "syttuid2","sytturl2"],
+  "keys": ["syttuid","sytturl"],
   "settings": [{
     "id": "syttstatus",
     "name": "当前账号数",
