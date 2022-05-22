@@ -363,7 +363,7 @@
    }  , {
       "id": "sytt",
   "name": "十堰头条",
-  "keys": ["sytturl", "sytthd", "syttuid"],
+  "keys": ["sytturl", "sytthd", "syttuid"]
    } 
  ]
 }
