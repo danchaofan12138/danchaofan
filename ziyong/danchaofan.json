@@ -282,6 +282,12 @@
           "val": "9:59:59:950",
           "type": "text",
           "desc": ""
+  }, {
+          "id": "elmOrderFlag",
+          "name": "优惠券开关",
+          "val": "",
+          "type": "textarea",
+          "desc": " elmOrderFlag='1&0&0'，这样设置为账号1抢兑10元无门槛券，其他账号不抢"
   }],
   "author": "@leaf",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/elm/elm.js",
