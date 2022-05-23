@@ -398,6 +398,19 @@
       "id": "sytt",
   "name": "十堰头条",
   "keys": ["syttuid","sytturl", "syttuid2","sytturl2", "syttuid3","sytturl3", "syttuid4","sytturl4", "syttuid5","sytturl5"],
+   "settings": [{
+    "id": "syttstatus",
+    "name": "当前账号数",
+    "val": "1",
+    "type": "number",
+    "desc": "想要抓取第几个账号的数据就填几"
+  }, {
+    "id": "syttcount",
+    "name": "当前账号总数",
+    "val": "1",
+    "type": "number",
+    "desc": "想要跑几个号就填几"
+  }],
   "author": "@dan",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/fanqiexiaoshuo/fqxs.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
