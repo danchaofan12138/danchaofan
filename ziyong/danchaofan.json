@@ -404,6 +404,27 @@
                         "repo": "https://github.com",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   } 
+   } , {
+      "id": "jm",
+  "name": "介么签到",
+  "keys": ["jmhd","jmbd", "jmhd2","jmbd2"],
+  "settings": [{
+    "id": "jmstatus",
+    "name": "当前账号数",
+    "val": "1",
+    "type": "number",
+    "desc": "想要抓取第几个账号的数据就填几"
+  }, {
+    "id": "jmcount",
+    "name": "当前账号总数",
+    "val": "1",
+    "type": "number",
+    "desc": "想要跑几个号就填几"
+  }],
+  "author": "@dan",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/fanqiexiaoshuo/fqxs.js",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com"
+   }
  ]
 }
