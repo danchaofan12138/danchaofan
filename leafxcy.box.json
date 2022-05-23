@@ -397,7 +397,7 @@
    } , {
       "id": "sytt",
   "name": "十堰头条",
-  "keys": ["syttuid","sytturl"],
+  "keys": ["syttuid","sytturl", "syttuid2","sytturl2", "syttuid3","sytturl3", "syttuid4","sytturl4", "syttuid5","sytturl5"],
   "author": "@dan",
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/fanqiexiaoshuo/fqxs.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
