@@ -465,7 +465,7 @@
   } , {
       "id": "lfyh",
   "name": "鸾凤玉华",
-  "keys": ["lfyh", "lfyh2", "lfyh3", "lfyh4", "lfyh5"],
+  "keys": ["lfyhkey", "lfyhkey2", "lfyhkey3", "lfyhkey4", "lfyhkey5"],
   "settings": [{
     "id": "lfyhstatus",
     "name": "当前账号数",
