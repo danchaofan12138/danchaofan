@@ -408,10 +408,6 @@
       "id": "hhsc",
   "name": "行行生财",
   "keys": ["hhsctk", "hhsctk2", "hhsctk3", "hhsctk4", "hhsctk5"],
-   , {
-      "id": "hhsc",
-  "name": "行行生财",
-  "keys": ["hhsctk", "hhsctk2", "hhsctk3", "hhsctk4", "hhsctk5"],
   "settings": [{
     "id": "hhscstatus",
     "name": "当前账号数",
