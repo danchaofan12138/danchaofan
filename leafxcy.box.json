@@ -397,7 +397,7 @@
    } , {
       "id": "sytt",
   "name": "十堰头条",
-  "keys": ["syttuid","sytturl", "syttuid2","sytturl2", "syttuid3","sytturl3", "syttuid4","sytturl4", "syttuid5","sytturl5"],
+  "keys": ["syttuid","sytturl", "syck","syttuid2","sytturl2", "syck2","syttuid3","sytturl3", "syck3","syttuid4","sytturl4", "syck4", "syttuid5","sytturl5""syck5"],
    "settings": [{
     "id": "syttstatus",
     "name": "当前账号数",
