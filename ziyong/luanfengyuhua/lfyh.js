@@ -18,68 +18,68 @@ api.luanfengyuhua.cn/Api/Signin/? url script-request-header lfyh.js
 const $ = new Env('鸾凤玉华')
 const notify = $.isNode() ?require('./sendNotify') : '';
 let status,no;
-status = (status = ($.getval("lfxhstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
-const lfxhkeyArr = []
+status = (status = ($.getval("lfyhstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
+const lfyhkeyArr = []
 
-let lfxhkey = $.getdata('lfxhkey')
-//let lfxhbd = $.getdata('lfxhbd')
+let lfyhkey = $.getdata('lfyhkey')
+//let lfyhbd = $.getdata('lfyhbd')
 
 let tz = ($.getval('tz') || '1');//0关闭通知，1默认开启
 const logs =0;//0为关闭日志，1为开启
 
 
 //CK运行
-let islfxhck = typeof $request !== 'undefined'
-if (islfxhck) {
-   lfxhck();
+let islfyhck = typeof $request !== 'undefined'
+if (islfyhck) {
+   lfyhck();
    $.done()
 }
 if ($.isNode()) {
-   if (process.env.lfxhkey && process.env.lfxhkey .indexOf('#') > -1) {
-   lfxhkey = process.env.lfxhkey .split('#');
+   if (process.env.lfyhkey && process.env.lfyhkey .indexOf('#') > -1) {
+   lfyhkey = process.env.lfyhkey .split('#');
    console.log(`您选择的是用"#"隔开\n`)
   }
-  else if (process.env.lfxhkey && process.env.lfxhkey .indexOf('\n') > -1) {
-   lfxhkey = process.env.lfxhkey .split('\n');
+  else if (process.env.lfyhkey && process.env.lfyhkey .indexOf('\n') > -1) {
+   lfyhkey = process.env.lfyhkey .split('\n');
    console.log(`您选择的是用换行隔开\n`)
   } else {
-   lfxhkey = process.env.lfxhkey .split()
+   lfyhkey = process.env.lfyhkey .split()
   };
 /*
-if (process.env.lfxh&& process.env.lfxh.indexOf('#') > -1) {
-   lfxh= process.env.lfxh.split('#');
+if (process.env.lfyh&& process.env.lfyh.indexOf('#') > -1) {
+   lfyh= process.env.lfyh.split('#');
    console.log(`您选择的是用"#"隔开\n`)
   }
-  else if (process.env.lfxh&& process.env.lfxh.indexOf('\n') > -1) {
-   lfxh= process.env.lfxh.split('\n');
+  else if (process.env.lfyh&& process.env.lfyh.indexOf('\n') > -1) {
+   lfyh= process.env.lfyh.split('\n');
    console.log(`您选择的是用换行隔开\n`)
   } else {
-   lfxh= process.env.lfxh.split()
+   lfyh= process.env.lfyh.split()
   };
 */
 /*
-  if (process.env.lfxhbd&& process.env.lfxhbd.indexOf('#') > -1) {
-   lfxhbd= process.env.lfxhbd.split('#');
+  if (process.env.lfyhbd&& process.env.lfyhbd.indexOf('#') > -1) {
+   lfyhbd= process.env.lfyhbd.split('#');
    console.log(`您选择的是用"#"隔开\n`)
   }
-  else if (process.env.lfxhbd&& process.env.lfxhbd.indexOf('\n') > -1) {
-   lfxhbd= process.env.lfxhbd.split('\n');
+  else if (process.env.lfyhbd&& process.env.lfyhbd.indexOf('\n') > -1) {
+   lfyhbd= process.env.lfyhbd.split('\n');
    console.log(`您选择的是用换行隔开\n`)
   } else {
-   lfxhbd= process.env.lfxhbd.split()
+   lfyhbd= process.env.lfyhbd.split()
   };
 */
 
     console.log(`============ 脚本执行-国际标准时间(UTC)：${new Date().toLocaleString()}  =============\n`)
     console.log(`============ 脚本执行-北京时间(UTC+8)：${new Date(new Date().getTime() + 8 * 60 * 60 * 1000).toLocaleString()}  =============\n`)
  } else {
-   lfxhkeyArr.push($.getdata('lfxhkey'))
-   //lfxhbdArr.push($.getdata('lfxhbd'))
+   lfyhkeyArr.push($.getdata('lfyhkey'))
+   //lfyhbdArr.push($.getdata('lfyhbd'))
 
-    let lfxhcount = ($.getval('lfxhcount') || '1');
-  for (let i = 2; i <= lfxhcount; i++) {
-   // lfxhbdArr.push($.getdata(`lfxhbd${i}`))
-    lfxhkeyArr.push($.getdata(`lfxhkey${i}`))
+    let lfyhcount = ($.getval('lfyhcount') || '1');
+  for (let i = 2; i <= lfyhcount; i++) {
+   // lfyhbdArr.push($.getdata(`lfyhbd${i}`))
+    lfyhkeyArr.push($.getdata(`lfyhkey${i}`))
  
   }
 }
@@ -88,7 +88,7 @@ if (process.env.lfxh&& process.env.lfxh.indexOf('#') > -1) {
 
 
 !(async () => {
-if (!lfxhkeyArr[0]) {
+if (!lfyhkeyArr[0]) {
     $.msg($.name, '【提示】请先获取一cookie')
     return;
   }
@@ -98,18 +98,18 @@ if (!lfxhkeyArr[0]) {
                 new Date().getTimezoneOffset() * 60 * 1000 +
                 8 * 60 * 60 * 1000
             ).toLocaleString()} ===============================================\n`);
-   console.log(`------------- 共${lfxhkeyArr.length}个账号----------------\n`)
-  for (let i = 0; i < lfxhkeyArr.length; i++) {
-    if (lfxhkeyArr[i]) {
-      lfxhkey= lfxhkeyArr[i];
-      //lfxhbd= lfxhbdArr[i];
+   console.log(`------------- 共${lfyhkeyArr.length}个账号----------------\n`)
+  for (let i = 0; i < lfyhkeyArr.length; i++) {
+    if (lfyhkeyArr[i]) {
+      lfyhkey= lfyhkeyArr[i];
+      //lfyhbd= lfyhbdArr[i];
       $.index = i + 1;
       console.log(`\蛋炒饭 脚本提示\n`)
       await $.wait(1000)
       console.log(`\n开始【账号${$.index}】`)
       //await cxsy();
      // await $.wait(1000);
-      await lfxhqd();
+      await lfyhqd();
       await $.wait(1000);
       await cxlf();
       await $.wait(1000);
@@ -124,32 +124,32 @@ if (!lfxhkeyArr[0]) {
 
 
 
-function lfxhck() {
+function lfyhck() {
 
 
 if($request.url.indexOf("Api/Signin/submit")>=-1) 
 {
-   const lfxhkey = $request.headers['sessionKey']
-   if(lfxhkey)$.setdata(lfxhkey,`lfxhkey${status}`)
-   $.log(`[${$.jsname}] 获取lfxhkey请求: 成功,lfxhkey: ${lfxhkey}`)
-    $.msg($.name, "", `${status}` + 'lfxhkey获取成功！')
+   const lfyhkey = $request.headers['sessionKey']
+   if(lfyhkey)$.setdata(lfyhkey,`lfyhkey${status}`)
+   $.log(`[${$.jsname}] 获取lfyhkey请求: 成功,lfyhkey: ${lfyhkey}`)
+    $.msg($.name, "", `${status}` + 'lfyhkey获取成功！')
 /*
-const lfxhbd = JSON.stringify($request.body)
-    if (lfxhbd) $.setdata(lfxhbd, `lfxhbd${status}`)
-    $.log(lfxhbd)
-    $.msg($.name, "", `${$.name}` + `${status}` + 'lfxhbd获取成功！')
+const lfyhbd = JSON.stringify($request.body)
+    if (lfyhbd) $.setdata(lfyhbd, `lfyhbd${status}`)
+    $.log(lfyhbd)
+    $.msg($.name, "", `${$.name}` + `${status}` + 'lfyhbd获取成功！')
 */
 }
 
 }
 
-function lfxhqd(timeout = 0) {
+function lfyhqd(timeout = 0) {
     return new Promise((resolve) => {
         let url = {
             url: `https://api.luanfengyuhua.cn/Api/Signin/submit`,
             headers: {
 'Accept-Encoding' : `gzip,compress,br,deflate`,
-'sessionKey' : `${lfxhkey}`,
+'sessionKey' : `${lfyhkey}`,
 'Connection' : `keep-alive`,
 'content-type' : `application/json`,
 'Referer' : `https://servicewechat.com/wx0a33ac3ad3f4c06c/45/page-frame.html`,
@@ -190,7 +190,7 @@ function cxlf(timeout = 0) {
             url: `https://api.luanfengyuhua.cn/Api/Signin/index`,
             headers: {
 'Accept-Encoding' : `gzip,compress,br,deflate`,
-'sessionKey' : `${lfxhkey}`,
+'sessionKey' : `${lfyhkey}`,
 'Connection' : `keep-alive`,
 'content-type' : `application/json`,
 'Referer' : `https://servicewechat.com/wx0a33ac3ad3f4c06c/45/page-frame.html`,
