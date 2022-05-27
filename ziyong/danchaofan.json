@@ -154,6 +154,12 @@
           "autoGrow": true,
           "rows": 8,
           "desc": "jzttToken"
+  }, , {
+    "id": "jzttWithdrawHour",
+    "name": "提现时间",
+    "val": "0",
+    "type": "number",
+    "desc": "默认0点，需要改其他时间直接填时间，比如:15"
   }],
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/jztt.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
