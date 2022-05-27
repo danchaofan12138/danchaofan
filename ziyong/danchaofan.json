@@ -154,7 +154,7 @@
           "autoGrow": true,
           "rows": 8,
           "desc": "jzttToken"
-  }, , {
+  }, {
     "id": "jzttWithdrawHour",
     "name": "提现时间",
     "val": "0",
