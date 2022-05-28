@@ -489,6 +489,27 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
+  } , {
+      "id": "lxsc",
+  "name": "联想商城",
+  "keys": ["lxscck", "lxscbd", "lxscck2", "lxscbd2"],
+  "settings": [{
+    "id": "lxscstatus",
+    "name": "当前账号数",
+    "val": "1",
+    "type": "number",
+    "desc": "想要抓取第几个账号的数据就填几"
+  }, {
+    "id": "lxsccount",
+    "name": "当前账号总数",
+    "val": "1",
+    "type": "number",
+    "desc": "想要跑几个号就填几"
+  }],
+  "author": "@danchaofan",
+                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
   } 
  ]
 }
