@@ -457,13 +457,13 @@
   "name": "趣躺赚",
   "keys": ["qtzhd", "qtzhd2", "qtzhd3", "qtzhd4", "qtzhd5"],
   "settings": [{
-    "id": "qtzhdstatus",
+    "id": "qtzstatus",
     "name": "当前账号数",
     "val": "1",
     "type": "number",
     "desc": "想要抓取第几个账号的数据就填几"
   }, {
-    "id": "qtzhdcount",
+    "id": "qtzcount",
     "name": "当前账号总数",
     "val": "1",
     "type": "number",
