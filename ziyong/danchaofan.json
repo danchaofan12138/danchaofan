@@ -476,7 +476,7 @@
   }  , {
       "id": "zan",
   "name": "众安",
-  "keys": ["zatk", "zabd","zabbd","zatk2", "zabd2" ,"zabbd2","zatk3", "zabd3", "zabbd3","zatk4", "zabd4","zabbd4"],
+  "keys": ["zatk","zatk2","zatk3","zatk4", "zatk5","zatk6"],
   "settings": [{
     "id": "zastatus",
     "name": "当前账号数",
