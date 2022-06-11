@@ -1,3 +1,6 @@
+/*
+一次性脚本，用完删掉，去提现
+*/
 const $ = new Env("平安挖矿");
 const notify = $.isNode() ? require('./sendNotify') : '';
 let status,no;
