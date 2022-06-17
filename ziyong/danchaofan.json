@@ -432,27 +432,6 @@
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
   } , {
-      "id": "lfyh",
-  "name": "鸾凤玉华",
-  "keys": ["lfyhkey", "lfyhkey2", "lfyhkey3", "lfyhkey4", "lfyhkey5"],
-  "settings": [{
-    "id": "lfyhstatus",
-    "name": "当前账号数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要抓取第几个账号的数据就填几"
-  }, {
-    "id": "lfyhcount",
-    "name": "当前账号总数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要跑几个号就填几"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
-  } , {
       "id": "qtz",
   "name": "趣躺赚",
   "keys": ["qtzhd", "qtzhd2", "qtzhd3", "qtzhd4", "qtzhd5"],
