@@ -106,6 +106,7 @@ console.log("\n开始  🐤清理鸡屎🐤");
 	await bhdqljs();
    await $.wait(1000);
 console.log("\n开始  🐤喂小鸡🐤");
+        await bhdsx();
 	await bhdwxj();
    await $.wait(1000);
 console.log("\n开始  🐤给小鸡加餐🐤");
