@@ -26,8 +26,8 @@ let Change = "支持QX、V2P、青龙";
 //---------------------------------------------------------------------------------------------------------
 
 async function tips(ckArr) {
-	let Version = `\n📌 本地脚本: V 0.0.2 `;
-	DoubleLog(`${Version}\n📌 🆙 更新内容: ${Change}`);
+	//let Version = `\n📌 本地脚本: V 0.0.2 `;
+	//DoubleLog(`${Version}\n📌 🆙 更新内容: ${Change}`);
 	//DoubleLog(`${thank}`);
 	await wyy();
 	DoubleLog(`\n========== 共找到 ${ckArr.length} 个账号 ==========`);
@@ -55,10 +55,6 @@ async function tips(ckArr) {
 	.finally(() => $.done());
 
 async function start() {
-/*console.log("\n📂用户信息📂");
-	await bhdzh();
-   await $.wait(1000);*/
-
 console.log("\n开始 🐤签到🐤");
 	await bhdqd();
 	await bhdqdlq();
