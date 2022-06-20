@@ -893,7 +893,7 @@ async function PublicRequests(method, getUrlObject, tip, timeout = 3) {
 	return new Promise((resolve) => {
 		let url = getUrlObject;
 		if (!tip) {
-			let tmp = arguments.callee.toString();
+			let tmp = PublicRequests.toString();
 			let re = /function\s*(\w*)/i;
 			let matches = re.exec(tmp);
 			tip = matches[1];
