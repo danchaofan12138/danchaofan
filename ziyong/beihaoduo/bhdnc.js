@@ -9,6 +9,19 @@ hostname = farm.weiyanwy.com
 boxjs地址:
 https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/danchaofan.json
 脚本地址:
+
+/*
+小程序:贝好多农场
+支持:QX、V2P、青龙
+6.20日在维护，现在进不去，早点就能进去了，给小鸡喂食下鸡蛋，鸡蛋兑换商品，之前有100个鸡蛋兑换的，现在只有400了。挂青龙吧，我之前兑换100鸡蛋是正常到的。
+添加重写，正常登陆小程序后重新进入小程序首页获取变量，变量名bhdtk。青龙手动抓取任何一条链接里面的jwt=后面的部分。
+本地重写:
+server/Index/getUserInfo? url script-request-header bhdnc.js
+hostname = farm.weiyanwy.com
+boxjs地址:
+https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/danchaofan.json
+脚本地址:
+https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/beihaoduo/bhdnc.js
 */
 
 const $ = new Env("贝好多农场");
