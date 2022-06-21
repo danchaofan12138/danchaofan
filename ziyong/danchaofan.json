@@ -658,23 +658,6 @@
                         "repo": "https://github.com",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   } , {
-      "id": "bhdnc",
-  "name": "贝好多农场",
-  "keys": ["bhdtk"],
-  "settings": [{
-          "id": "bhdtk",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "bhdtk"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
    }
  ]
 }
