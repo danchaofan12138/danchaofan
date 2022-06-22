@@ -30,6 +30,12 @@
           "autoGrow": true,
           "rows": 8,
           "desc": "ksjsbCookie"
+  } ,{
+          "id": "ksjsbapitoken",
+          "name": "token",
+          "val": "",
+          "type": "textarea",
+          "desc": "相当于卡密，自己找渠道"
   }],
                         "repo": "https://github.com/leafxcy/JavaScript/blob/main/ksjsb.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
