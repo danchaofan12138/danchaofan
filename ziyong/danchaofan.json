@@ -32,7 +32,7 @@
           "desc": "ksjsbCookie"
   } ,{
           "id": "ksjsbapitoken",
-          "name": "token",
+          "name": "ksjsbapitoken",
           "val": "",
           "type": "textarea",
           "desc": "相当于卡密，自己找渠道"
