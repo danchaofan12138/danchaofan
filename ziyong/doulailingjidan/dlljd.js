@@ -169,7 +169,7 @@ async function dlljdqp() {
 	};
 	let result = await PublicRequests('get', Options);
 	if (result.code == 0) {
-		DoubleLog(`${result.message}`);
+		DoubleLog(`为你的小鸡鸡${result.message}哦`);
 		//await wait(3);
 	} else {
 		DoubleLog(`气泡领取失败: 失败 ❌ 了呢,${result.message}`);
@@ -211,7 +211,7 @@ async function dlljdjl() {
 	};
 	let result = await PublicRequests('get', Options);
 	if (result.code == 0) {
-		DoubleLog(`为你的小鸡鸡${result.message}口粮哦`);
+		DoubleLog(`为你的小鸡鸡${result.message}哦`);
 		//await wait(3);
 	} else {
 		DoubleLog(`查看失败: 失败 ❌ 了呢,${result.message}`);
@@ -248,7 +248,7 @@ async function dlljdsc() {
 	};
 	let result = await PublicRequests('get', Options);
 	if (result.code == 0) {
-		DoubleLog(`为你的小鸡鸡${result.message}口粮哦`);
+		DoubleLog(`为你的小鸡鸡${result.message}哦`);
 		//await wait(3);
 	} else {
 		DoubleLog(`浏览失败: 失败 ❌ 了呢,${result.message}`);
