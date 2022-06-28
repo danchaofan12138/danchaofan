@@ -656,6 +656,23 @@
                         "repo": "https://github.com",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
+   }  , {
+  "id": "tongyi",
+  "name": "统一茄皇",
+  "keys": ["tybody"],
+  "settings": [{
+          "id": "tybody",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "tybody"
+  }],
+  "author": "@danchaofan",
+                        "repo": "https://github.com",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
    }
  ]
 }
