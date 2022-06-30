@@ -673,6 +673,23 @@
                         "repo": "https://github.com",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
+   } , {
+  "id": "kuaiyin",
+  "name": "快音",
+  "keys": ["ky_refresh_token"],
+  "settings": [{
+          "id": "ky_refresh_token",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "ky_refresh_token"
+  }],
+  "author": "@danchaofan",
+                        "repo": "https://github.com",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
    }
  ]
 }
