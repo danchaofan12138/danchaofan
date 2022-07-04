@@ -724,6 +724,23 @@
                         "repo": "https://github.com",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   }
+   } , {
+  "id": "jhjd",
+  "name": "鸡和鸡蛋",
+  "keys": ["jhjdtk"],
+  "settings": [{
+          "id": "jhjdtk",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "jhjdtk"
+  }],
+  "author": "@danchaofan",
+                        "repo": "https://github.com",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
+   } 
  ]
 }
