@@ -741,6 +741,23 @@
                         "repo": "https://github.com",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
+   }  , {
+  "id": "yb",
+  "name": "云吧",
+  "keys": ["ybcookie"],
+  "settings": [{
+          "id": "ybcookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "ybcookie"
+  }],
+  "author": "@danchaofan",
+                        "repo": "https://github.com",
+                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
+                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
    } 
  ]
 }
