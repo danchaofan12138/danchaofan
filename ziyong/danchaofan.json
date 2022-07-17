@@ -306,40 +306,6 @@
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js"
    } , {
-      "id": "jzyl",
-  "name": "健走有礼",
-  "keys": ["jzylCookie"],
-  "settings": [{
-          "id": "jzylCookie",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "jzylCookie"
-  }],
-  "author": "@leaf",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/jianzouyouli/jzyl.js",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com"
-   }  , {
-      "id": "xqz",
-  "name": "闲趣赚",
-  "keys": ["xqzck"],
-  "settings": [{
-          "id": "xqzck",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "xqzck"
-  }],
-  "author": "@tom",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/xianquzhuan/xqz.js",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com"
-   }  , {
       "id": "zssq_leaf",
   "name": "追书神器",
   "keys": ["zssqCookie"],
@@ -400,23 +366,6 @@
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com"
    }  , {
-      "id": "jdapp",
-  "name": "捷达app",
-  "keys": ["JETTA_token"],
-  "settings": [{
-          "id": "JETTA_token",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "JETTA_token"
-  }],
-  "author": "@leaf",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   } , {
       "id": "hhsc",
   "name": "行行生财",
   "keys": ["hhsctk", "hhsctk2", "hhsctk3", "hhsctk4", "hhsctk5"],
@@ -428,27 +377,6 @@
     "desc": "想要抓取第几个账号的数据就填几"
   }, {
     "id": "hhsccount",
-    "name": "当前账号总数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要跑几个号就填几"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
-  } , {
-      "id": "qtz",
-  "name": "趣躺赚",
-  "keys": ["qtzhd", "qtzhd2", "qtzhd3", "qtzhd4", "qtzhd5"],
-  "settings": [{
-    "id": "qtzstatus",
-    "name": "当前账号数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要抓取第几个账号的数据就填几"
-  }, {
-    "id": "qtzcount",
     "name": "当前账号总数",
     "val": "1",
     "type": "number",
