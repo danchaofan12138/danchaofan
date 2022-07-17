@@ -522,27 +522,6 @@
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
   } , {
-      "id": "bsly",
-  "name": "百事乐园",
-  "keys": ["bslytk","bslytk2","bslytk3","bslytk4", "bslytk5","bslytk6"],
-  "settings": [{
-    "id": "bslystatus",
-    "name": "当前账号数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要抓取第几个账号的数据就填几"
-  }, {
-    "id": "bslycount",
-    "name": "当前账号总数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要跑几个号就填几"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
-  } , {
       "id": "wyyx",
   "name": "网易严选",
   "keys": ["wyyxhd","wyyxhd2","wyyxhd3","wyyxhd4", "wyyxhd5","wyyxhd6"],
@@ -563,28 +542,7 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
-  } , {
-      "id": "pawk",
-  "name": "平安挖矿",
-  "keys": ["pawktk","pawkid","pawktk2","pawkid2", "pawktk3","pawkid3", "pawktk4","pawkid4", "pawktk5","pawkid5"],
-  "settings": [{
-    "id": "pawkstatus",
-    "name": "当前账号数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要抓取第几个账号的数据就填几"
   }, {
-    "id": "pawkcount",
-    "name": "当前账号总数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要跑几个号就填几"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
-  } , {
       "id": "dsmc",
   "name": "都世牧场",
   "keys": ["dsmctk","dsmctk2","dsmctk3","dsmctk4", "dsmctk5","dsmctk6"],
@@ -725,40 +683,6 @@
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
    } , {
-  "id": "jhjd",
-  "name": "鸡和鸡蛋",
-  "keys": ["jhjdtk"],
-  "settings": [{
-          "id": "jhjdtk",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "jhjdtk"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   }  , {
-  "id": "yb",
-  "name": "云吧",
-  "keys": ["ybcookie"],
-  "settings": [{
-          "id": "ybcookie",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "ybcookie"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   }  , {
   "id": "llt",
   "name": "遛遛它",
   "keys": ["lltToken"],
