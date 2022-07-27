@@ -664,15 +664,15 @@
    } , {
   "id": "casl",
   "name": "长安深蓝",
-  "keys": ["caslAuthorization"],
+  "keys": ["caslauthorization"],
   "settings": [{
-          "id": "caslAuthorization",
+          "id": "caslauthorization",
           "name": "CK 列表",
           "val": "",
           "type": "textarea",
           "autoGrow": true,
           "rows": 8,
-          "desc": "caslAuthorization"
+          "desc": "caslauthorization"
   }],
   "author": "@danchaofan",
                         "repo": "https://github.com",
