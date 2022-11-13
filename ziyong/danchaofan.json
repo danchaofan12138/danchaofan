@@ -132,22 +132,7 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/wbtc.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/wbtc.js"
-  } , {
-      "id": "xlh",
-  "name": "骁龙会",
-  "keys": ["xlhCookies"],
-  "author": "@yml",
-  "settings": [{
-    "id": "xlhCount",
-    "name": "账号个数",
-    "val": "1",
-    "type": "number",
-    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-  }],
-                        "repo": "https://github.com/yml2213/javascript/master/blob/xlh/xlh.js",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/yml2213/javascript/master/xlh/xlh.js"
-  } , {
+  }, {
       "id": "jztt",
   "name": "九章头条",
   "keys": ["jzttToken"],
@@ -365,28 +350,7 @@
                         "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/ziyong/fanqiexiaoshuo/fqxs.js",
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com"
-   }  , {
-      "id": "hhsc",
-  "name": "行行生财",
-  "keys": ["hhsctk", "hhsctk2", "hhsctk3", "hhsctk4", "hhsctk5"],
-  "settings": [{
-    "id": "hhscstatus",
-    "name": "当前账号数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要抓取第几个账号的数据就填几"
-  }, {
-    "id": "hhsccount",
-    "name": "当前账号总数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要跑几个号就填几"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
-  }  , {
+   } , {
       "id": "zan",
   "name": "众安",
   "keys": ["zatk","zatk2","zatk3","zatk4", "zatk5","zatk6"],
@@ -471,61 +435,6 @@
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
   }, {
-      "id": "dsmc",
-  "name": "都世牧场",
-  "keys": ["dsmctk","dsmctk2","dsmctk3","dsmctk4", "dsmctk5","dsmctk6"],
-  "settings": [{
-    "id": "dsmcstatus",
-    "name": "当前账号数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要抓取第几个账号的数据就填几"
-  }, {
-    "id": "dsmccount",
-    "name": "当前账号总数",
-    "val": "1",
-    "type": "number",
-    "desc": "想要跑几个号就填几"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com/danchaofan12138/danchaofan/blob/main/dd_fruit.js",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/dd_fruit.js"
-  }, {
-      "id": "lvmiao",
-  "name": "绿色的喵",
-  "keys": ["lm_data"],
-  "settings": [{
-          "id": "lm_data",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "lm_data"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   } , {
-  "id": "doulailingjidan",
-  "name": "都来领鸡蛋",
-  "keys": ["dlljdtk"],
-  "settings": [{
-          "id": "dlljdtk",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "dlljdtk"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   } , {
   "id": "guoquanshangcheng",
   "name": "锅圈商城",
   "keys": ["gqscck"],
@@ -577,57 +486,6 @@
                             "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
                                 "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
    } , {
-  "id": "wyyd",
-  "name": "网易有道词典",
-  "keys": ["wyydcdck"],
-  "settings": [{
-          "id": "wyydcdck",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "wyydcdck"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   } , {
-  "id": "csh",
-  "name": "潮生活阅读",
-  "keys": ["cshtoken"],
-  "settings": [{
-          "id": "cshtoken",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "cshtoken"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   } , {
-  "id": "llt",
-  "name": "遛遛它",
-  "keys": ["lltToken"],
-  "settings": [{
-          "id": "lltToken",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "lltToken"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   } , {
   "id": "dsj",
   "name": "电视家小程序",
   "keys": ["dsjuserid"],
@@ -639,40 +497,6 @@
           "autoGrow": true,
           "rows": 8,
           "desc": "dsjuserid"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   }  , {
-  "id": "bhyh",
-  "name": "渤海银行",
-  "keys": ["bhjflyck"],
-  "settings": [{
-          "id": "bhjflyck",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "bhjflyck"
-  }],
-  "author": "@danchaofan",
-                        "repo": "https://github.com",
-                            "icons": ["https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png", "https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/hbd.png"],
-                                "script": "https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js"
-   } , {
-  "id": "casl",
-  "name": "长安深蓝",
-  "keys": ["caslauthorization"],
-  "settings": [{
-          "id": "caslauthorization",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "caslauthorization"
   }],
   "author": "@danchaofan",
                         "repo": "https://github.com",
